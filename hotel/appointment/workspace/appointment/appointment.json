@@ -1,57 +1,20 @@
 {
- "cards_label": "Bookmarks",
+ "cards_label": "Appointment",
  "category": "Modules",
  "charts": [],
- "creation": "2022-08-09 19:58:28.399500",
+ "creation": "2022-08-10 19:58:45.571897",
  "developer_mode_only": 0,
  "disable_user_customization": 0,
  "docstatus": 0,
  "doctype": "Workspace",
  "extends_another_page": 0,
- "hide_custom": 1,
- "icon": "projects",
+ "hide_custom": 0,
+ "icon": "support",
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "label": "Kitchen",
+ "label": "Appointment",
  "links": [
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Documents",
-   "link_type": "DocType",
-   "onboard": 0,
-   "only_for": "",
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "KOT",
-   "link_to": "KOT",
-   "link_type": "DocType",
-   "onboard": 0,
-   "only_for": "",
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Sales Invoice",
-   "link_to": "Sales Invoice",
-   "link_type": "DocType",
-   "onboard": 0,
-   "only_for": "",
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Reports",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
   {
    "hidden": 0,
    "is_query_report": 0,
@@ -60,14 +23,49 @@
    "onboard": 0,
    "only_for": "",
    "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Email Template : Appointment Confirmation",
+   "link_to": "Email Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "only_for": "",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bookings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "only_for": "",
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Communication",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
   }
  ],
- "modified": "2022-08-10 20:30:06.877922",
+ "modified": "2022-08-10 20:42:36.521528",
  "modified_by": "Administrator",
- "module": "KOT",
- "name": "Kitchen",
+ "module": "Appointment",
+ "name": "Appointment",
  "owner": "Administrator",
  "pin_to_bottom": 0,
  "pin_to_top": 1,
- "shortcuts": []
+ "shortcuts": [
+  {
+   "color": "#4F9DD9",
+   "doc_view": "Calendar",
+   "label": "Booking Calendar",
+   "link_to": "Client Appointment",
+   "type": "DocType"
+  }
+ ]
 }
