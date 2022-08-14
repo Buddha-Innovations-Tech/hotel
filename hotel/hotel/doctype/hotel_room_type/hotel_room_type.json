@@ -42,6 +42,7 @@
    "allow_in_quick_entry": 1,
    "fieldname": "room_type",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Room Type",
    "reqd": 1
   },

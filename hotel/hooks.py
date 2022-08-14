@@ -13,8 +13,8 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/hotel/css/hotel.css"
-# app_include_js = "/assets/hotel/js/hotel.js"
+app_include_css = "/assets/hotel/css/hotel.css"
+app_include_js = "/assets/hotel/js/common.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/hotel/css/hotel.css"
@@ -190,7 +190,8 @@ fixtures = [
                 'Sales Order-hotel_room',
                 'Sales Order-room_no',
                 'Sales Order-room_rate',
-                'Sales Order-weekend_rate'
+                'Sales Order-weekend_rate',
+                'Item-room_type'
             ]]
         },
     },
@@ -199,7 +200,7 @@ fixtures = [
         "filters": [["name", "in", ("Sales Order-delivery_status-in_standard_filter"),("Sales Order-billing_status-in_standard_filter"),("Sales Order-billing_status-no_copy"),("Sales Order-per_delivered-in_list_view"),
                      ("Sales Order-from_date-hidden"),("Sales Order-from_date-in_standard_filter"),("Sales Order-from_date-in_list_view"),
                      ("Sales Order-to_date-hidden"),("Sales Order-to_date-in_standard_filter"),("Sales Order-to_date-in_list_view"),
-                     ("Sales Order-delivery_date-in_list_view")]],
+                     ("Sales Order-delivery_date-in_list_view"),("Sales Order-delivery_date-hidden")]],
     },
 ]
 # Authentication and authorization
