@@ -27,6 +27,15 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Facility & Service setup",
+   "link_to": "Facility",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Email Template : Appointment Confirmation",
    "link_to": "Email Template",
    "link_type": "DocType",
@@ -50,9 +59,18 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Client Appointment",
+   "link_to": "Client Appointment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2022-08-10 20:42:36.521528",
+ "modified": "2022-08-17 06:05:38.839080",
  "modified_by": "Administrator",
  "module": "Appointment",
  "name": "Appointment",
