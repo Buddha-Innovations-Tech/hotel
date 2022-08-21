@@ -13,8 +13,21 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/hotel/css/hotel.css"
-app_include_js = "/assets/hotel/js/common.js"
+app_include_css = [
+    "/assets/hotel/css/hotel.css",
+    "/assets/hotel/css/tabulator.min.css"]
+app_include_js = [
+    "/assets/hotel/js/common.js",
+    "/assets/hotel/js/ag_report.js",
+    "/assets/hotel/js/common_quick_entry.js",
+    "/assets/hotel/js/frappe_tabulator.js",
+    "/assets/hotel/js/kot_utils.js",
+    "/assets/hotel/js/tabulator.js",
+    "/assets/hotel/js/lib/ag-grid-community.min.js",
+    "/assets/hotel/js/lib/mousetrap.min.js"]
+
+
+
 
 # include js, css files in header of web template
 # web_include_css = "/assets/hotel/css/hotel.css"

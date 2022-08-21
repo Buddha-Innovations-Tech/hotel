@@ -27,9 +27,36 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Frontdesk HMS",
+   "link_to": "Frontdesk HMS",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Night Audit",
+   "link_to": "Night-Audit",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Reservation",
    "link_to": "Sales Order",
    "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Room Folio",
+   "link_to": "Room Folio Statement",
+   "link_type": "Report",
    "onboard": 0,
    "type": "Link"
   },
@@ -107,7 +134,7 @@
    "type": "Card Break"
   }
  ],
- "modified": "2022-08-09 20:03:55.196539",
+ "modified": "2022-08-21 11:01:08.836893",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "HMS",

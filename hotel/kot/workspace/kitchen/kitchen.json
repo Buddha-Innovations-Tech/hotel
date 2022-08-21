@@ -54,6 +54,60 @@
   },
   {
    "hidden": 0,
+   "is_query_report": 1,
+   "label": "Waiters View",
+   "link_to": "Kot Listview",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Kitchen View",
+   "link_to": "Kot Listview",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Desk View",
+   "link_to": "Kot Listview",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Kitchen Analytics",
+   "link_to": "Kitchen Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "KOT Sales",
+   "link_to": "KOT Sales",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "KOT Sales vs Invoice Collection",
+   "link_to": "KOT Sales vs Invoice Collection",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
    "is_query_report": 0,
    "label": "Setup",
    "link_type": "DocType",
@@ -62,12 +116,19 @@
    "type": "Card Break"
   }
  ],
- "modified": "2022-08-10 20:30:06.877922",
+ "modified": "2022-08-21 10:31:26.511818",
  "modified_by": "Administrator",
  "module": "KOT",
  "name": "Kitchen",
  "owner": "Administrator",
  "pin_to_bottom": 0,
  "pin_to_top": 1,
- "shortcuts": []
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Waiters View",
+   "link_to": "Kot Listview",
+   "type": "Report"
+  }
+ ]
 }
