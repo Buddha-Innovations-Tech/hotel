@@ -51,14 +51,14 @@
   {
    "description": "Africa/Lagos",
    "fieldname": "scheduled_from_date",
-   "fieldtype": "Date",
+   "fieldtype": "Datetime",
    "label": "Starts On",
    "reqd": 1
   },
   {
    "description": "Africa/Lagos",
    "fieldname": "scheduled_to_date",
-   "fieldtype": "Date",
+   "fieldtype": "Datetime",
    "label": "Ends On",
    "reqd": 1
   },
@@ -107,7 +107,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-08-17 06:07:48.293615",
+ "modified": "2022-08-23 05:56:18.932248",
  "modified_by": "Administrator",
  "module": "Appointment",
  "name": "Client Appointment",
@@ -126,7 +126,7 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "track_changes": 1
 }
